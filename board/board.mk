@@ -1,8 +1,8 @@
 # List of all the board related files.
-BOARDSRC = ./board/board.c
+BOARDSRC = $(CHIBIOS)/board/board.c
 
 # Required include directories
-BOARDINC = ./board
+BOARDINC = $(CHIBIOS)/board
 
 # Shared variables
 ALLCSRC += $(BOARDSRC)
