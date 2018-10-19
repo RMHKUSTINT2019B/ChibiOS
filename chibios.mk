@@ -1,4 +1,4 @@
-CONFDIR = $(CHIBIOS)/cfg
+CONFDIR = ./cfg
 # Licensing files.
 include $(CHIBIOS)/os/license/license.mk
 # Startup files.
